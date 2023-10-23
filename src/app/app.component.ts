@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'airskill-site';
+  title = 'Airskill est une plateforme de formation en ligne qui vous permet de vous former à votre rythme et à votre convenance.';
+
+
+  text: string = 'Tech_';
+  carouselList = [
+    'Tech_', 'Développement web_', 'UxDesign_', 'I.A_', 'Data_'
+  ];
+
+  ngOnInit() {
+  }
+
+
 }
