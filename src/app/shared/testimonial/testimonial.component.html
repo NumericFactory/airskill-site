@@ -1,0 +1,29 @@
+<!-- TEMOIGNAGE CEO AIRSKILL-->
+<div class="c-testimonials">
+    <h3 *ngIf="title">{{title}}</h3>
+    <ul class="c-testimonials__items swiper-wrapper">
+        <li class="c-testimonials__item c-card-testimonial swiper-slide">
+            <div class="c-card-testimonial__profile">
+                <img *ngIf="imageUrl" [src]="imageUrl" [alt]="name" class="c-card-testimonial__image">
+            </div>
+
+            <div class="c-card-testimonial__description">
+                <span class="c-card-testimonial__job">
+                    {{company}}
+                </span>
+
+                <div class="c-card-testimonial__author">
+                    {{name}}
+                </div>
+
+                <div class="c-card-testimonial__excerpt">
+                    <p [innerHTML]="description">
+                    </p>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="text-center">
+        <em>+15ans d'expertise dans les métiers de la tech</em>
+    </div>
+</div>

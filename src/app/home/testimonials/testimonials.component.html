@@ -1,0 +1,42 @@
+<section class="bg-dark">
+
+    <div class="container">
+        <h2 class="text-light text-center">Nos clients en parlent</h2>
+
+        <div class="row">
+            <div *ngFor="let t of testimonials" class="col-lg-6 order-1">
+                <app-testimonial [title]="t.title" [name]="t.name" [company]="t.company" [description]="t.description"
+                    [imageUrl]="t.imageUrl"></app-testimonial>
+            </div>
+        </div>
+
+
+        <div class="encart">
+
+            <div class="number-container">
+                <div class="number-container-deco">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-xl-4">
+                            <div class="d-flex justify-content-start justify-content-xl-center align-items-center">
+                                <div class="number">15</div>
+                                <div class="text">entreprises et écoles partenaires</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                            <div class="d-flex justify-content-start justify-content-xl-center align-items-center">
+                                <div class="number">+1000</div>
+                                <div class="text">apprenants formés</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-4">
+                            <div class="d-flex justify-content-start justify-content-xl-center align-items-center">
+                                <div class="number">+70</div>
+                                <div class="text">missions menées à bien</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

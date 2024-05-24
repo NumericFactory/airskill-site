@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+// 1. RESETTINGS
+// 2. CARD TESTIMONIAL
+// 3. SWIPER TESTIMONIALS
+// 4. SWIPER BULLETS
+
+//--------------------------------- 1. SETTINGS
+:root {
+    --color-custom: #ffeba7;
+    --color-primary: #ff3671;
+    --color-text-dark: #0d0925;
+    --color-text-medium: #4e4a67;
+    --color-text-light: #7b7992;
+    --color-light: #fff;
+    --color-bg-medium: #4e4a67;
+    --color-bg: #26242e;
+    --spacing-base: 4px;
+    --gradient-bg: linear-gradient(45deg, #4527a0, #6a1b9a);
+    --shadow-base: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    --shadow-colored: rgba(255, 54, 110, 0.2) 0px 0px 5px 0px,
+        rgba(255, 54, 110, 0.4) 0px 3px 20px 0px,
+        rgba(255, 54, 110, 0.3) 0px 10px 28px 0px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+//--------------------------------- 2. CARD
+
+ul.c-testimonials__items {
+    padding-left: 0;
+}
+
+ul.list-group li {
+    font-size: 19px;
+    margin-bottom: 14px;
+    list-style: none;
+    position: relative;
+}
+
+ul.list-group li i {
+    color: #00cfbc;
+}
+
+ul.list-group li::before {
+    content: "\f26a";
+    color: #00cfbc;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -0.125em;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    left: -32px;
+    top: 8px;
+}
+
+.list-group {
+    padding: 18px 40px 0 22px;
+    /* background: #f4f4f4; */
+    min-height: 220px;
+    border-radius: 20px;
+    color: #050505;
+}
+
+h2.value,
+h2 {
+    font-weight: 700;
+    letter-spacing: -.03em;
+}
+
+h2.value {
+    filter: drop-shadow(2px 3px 0px #82aaff);
+}
+
+h2 span {
+    color: #0047d7 !important;
+}
+
+small.etiquette {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 12px;
+    border: 0px solid #8BC34A;
+    /* border-width: 0 2px 2px 0; */
+    background: #a5fbee7d;
+    color: #5e7891;
+    border-radius: 0 1px 5px 0;
+}
+
+.card-body {
+    padding-top: 50px;
+}
+
+.card-body img {
+    position: absolute;
+    width: 86px;
+    border-radius: 50%;
+    top: -45px;
+    left: calc(50% - 44px);
+    box-sizing: border-box;
+    border: 0px solid #aaa;
+    box-shadow: 0 0 0px 1px #ff00fe;
+}

@@ -1,0 +1,59 @@
+section {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.encart {
+    padding: 70px 0px;
+    display: block;
+    margin: -30px;
+}
+
+.encart .number-container {
+    padding: 50px 50px;
+}
+
+.encart .number-container {
+    padding: 60px 30px;
+    position: relative;
+    box-sizing: border-box;
+    background: #c6fbf7ff;
+    background-clip: padding-box;
+    border: solid 2px transparent;
+    border-radius: 20px;
+    border: 2px solid #38e6c3;
+}
+
+
+.encart .number-container-deco:before {
+    content: url(https://unlck.fr/wp-content/themes/unlck/assets/dist/images/icon/salary-deco-top-left.svg);
+    position: absolute;
+    top: 0px;
+    left: -1px;
+}
+
+.encart .number-container-deco:after {
+    content: url(https://unlck.fr/wp-content/themes/unlck/assets/dist/images/icon/salary-deco-bottom-right.svg);
+    position: absolute;
+    bottom: -8px;
+    right: -1px;
+}
+
+.encart .number,
+.encart .percent {
+    font-family: "PTSans-Bold";
+    font-size: 70px;
+    line-height: 91px;
+    background: linear-gradient(132.32deg, #38E6DA 30%, #38E6B3 70%);
+    background-clip: text;
+    // filter: drop-shadow(2px 3px 0px #000);
+    filter: drop-shadow(2px 3px 0px #38E6DA);
+}
+
+.encart .text {
+    font-size: 25px;
+    line-height: 32px;
+    color: #000;
+    max-width: 150px;
+    margin-left: 20px;
+}
